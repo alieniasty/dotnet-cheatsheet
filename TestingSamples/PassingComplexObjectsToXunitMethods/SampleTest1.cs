@@ -61,6 +61,8 @@ namespace TestingSamples.PassingComplexObjectsToXunitMethods
         }
     }
 
+    #region FakeLogic
+
     public class SystemUnderTest
     {
         public bool CompareObjects(TestObject1 testObject1, TestObject2 testObject2)
@@ -88,4 +90,7 @@ namespace TestingSamples.PassingComplexObjectsToXunitMethods
         public string Country { get; set; }
         public string State { get; set; }
     }
+
+    #endregion
+
 }
