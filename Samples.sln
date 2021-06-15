@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSamples", "TestingSamples\TestingSamples.csproj", "{68389C18-9913-4A26-B538-A88494063789}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestingSamples", "TestingSamples\TestingSamples.csproj", "{68389C18-9913-4A26-B538-A88494063789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSamples", "AzureSamples\AzureSamples.csproj", "{99FD9527-BE64-4890-AC98-E4DC3BEF3CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{68389C18-9913-4A26-B538-A88494063789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68389C18-9913-4A26-B538-A88494063789}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68389C18-9913-4A26-B538-A88494063789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FD9527-BE64-4890-AC98-E4DC3BEF3CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FD9527-BE64-4890-AC98-E4DC3BEF3CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FD9527-BE64-4890-AC98-E4DC3BEF3CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FD9527-BE64-4890-AC98-E4DC3BEF3CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

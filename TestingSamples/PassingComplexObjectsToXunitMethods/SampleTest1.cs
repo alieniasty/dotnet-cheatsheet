@@ -47,14 +47,14 @@ namespace TestingSamples.PassingComplexObjectsToXunitMethods
 
         [Theory]
         [MemberData(nameof(FixtureData))]
-        public void When_TwoObjects_Are_Equal_Should_Return_Bool(TestObject1 updateUserRequestDto, TestObject2 myJabraUserResponseDto, bool expectedResponse)
+        public void When_TwoObjects_Are_Equal_Should_Return_Bool(TestObject1 testObject1, TestObject2 testObject2, bool expectedResponse)
         {
             //Arrange
 
             var systemUnderTest = new SystemUnderTest();
 
             //Act
-            var result = systemUnderTest.CompareObjects(updateUserRequestDto, myJabraUserResponseDto);
+            var result = systemUnderTest.CompareObjects(testObject1, testObject2);
 
             //Assert
             result.Should().Be(expectedResponse);
