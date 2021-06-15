@@ -60,10 +60,10 @@
                 .OnEntryFrom(toRejectTrigger, ChangeStatusInDatabase);
 
             stateMachine.Configure(State.Active)
-                .OnEntryFrom(toRejectTrigger, ChangeStatusInDatabase);
+                .OnEntryFrom(toPendingTrigger, ChangeStatusInDatabase);
 
             stateMachine.Configure(State.Rejected)
-                .OnEntryFrom(toActiveTrigger, ChangeStatusInDatabase);
+                .OnEntryFrom(toPendingTrigger, ChangeStatusInDatabase);
         }
 
         private static void ChangeStatusInDatabase(string email, string newState)
