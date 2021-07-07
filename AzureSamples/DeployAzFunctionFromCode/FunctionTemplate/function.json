@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "messageJson",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "{{topic-name}}",
+      "subscriptionName": "{{subscription-name}}",
+      "connection": "MyJabraServiceBusConnectionString"
+    }
+  ]
+}
