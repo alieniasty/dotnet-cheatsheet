@@ -9,11 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSamples", "AzureSample
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransitSample", "MassTransitSample", "{571E63A6-5C95-4509-A51E-DDF205DA18F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Template", "Template\MassTransitSample.Template.csproj", "{7A843F29-8B15-489C-8355-BE1E6D7C8F44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Template", "MassTransitSample\Template\MassTransitSample.Template.csproj", "{7A843F29-8B15-489C-8355-BE1E6D7C8F44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Domain", "Domain\MassTransitSample.Domain.csproj", "{60297D4F-FAFA-4B4A-8833-C431426A1C0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Domain", "MassTransitSample\Domain\MassTransitSample.Domain.csproj", "{60297D4F-FAFA-4B4A-8833-C431426A1C0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Messaging", "Messaging\MassTransitSample.Messaging.csproj", "{51DE55A4-C815-4D7D-B8F8-EEE98951A821}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitSample.Messaging", "MassTransitSample\Messaging\MassTransitSample.Messaging.csproj", "{51DE55A4-C815-4D7D-B8F8-EEE98951A821}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
